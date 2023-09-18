@@ -1,0 +1,90 @@
+.botoes-secao {
+  gap: 50px;
+  position: absolute;
+  bottom: 0; /* Coloca os botões na parte inferior */
+  padding-bottom: 200px;
+  margin: 10px; /* Espaço entre os botões e as bordas da página */
+
+
+}
+
+.botoes-secao button {
+  border-radius: 15px;
+  border: 1px; /* Replace #000 with your desired border color */
+  background: linear-gradient(90deg, #4d5097 2.62%, #2520a8 93.38%);
+  transition: background-color 0.3s, transform 0.3s;
+  padding-right: 500px;
+  padding-left: 10px;
+  font-size: 24px;
+  line-height: 45px;
+  
+  
+  
+}
+
+.botoes-secao button:hover {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Altera a cor de fundo no hover */
+  transform: scale(1.05); /* Faz o botão crescer um pouco no hover */
+}
+
+.botoes-secao button:active {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Mantém a cor de fundo no clique */
+  transform: scale(0.95); /* Faz o botão encolher um pouco no clique */
+}
+
+.conteudo {
+  line-height: 30px;
+  position: relative;
+  top: 10px;
+  border-radius: 15px; /* Substitua #000 pela cor desejada para a borda */
+  transition: max-height 0.3s ease-in-out;
+  background: linear-gradient(90deg, #26263e 2.62%, #2b2965 93.38%);
+  font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+  color: beige;
+  width: 650px; /* Defina o tamanho desejado para a caixa .conteudo */
+  overflow: auto; /* Adicione rolagem caso o conteúdo seja muito longo */
+  padding-left: 10px; /* Espaçamento interno à esquerda */
+}
+
+.conteudo p {
+  display: none;
+  border-right: 10px;
+}
+
+.mostrar {
+  display: block;
+  
+}
+
+.galeria {
+  gap: 24px;
+  padding: 20px 20px;
+}
+
+.galeria a {
+  position: relative;
+  left: 25px;
+  font-size: 25px;
+}
+
+/* Estilo de botão para a imagem */
+.img-botao {
+  cursor: pointer; /* Altera o cursor para uma mão ao passar o mouse sobre a imagem */
+  padding: 10px 10px; /* Espaçamento interno para torná-lo semelhante a um botão */
+  background-color: #4d5097; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+  transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+}
+
+.img-botao:hover {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Altera a cor de fundo no hover */
+  transform: scale(1.05); /* Faz o botão crescer um pouco no hover */
+}
+
+.img-botao:active {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Mantém a cor de fundo no clique */
+  transform: scale(0.95); /* Faz o botão encolher um pouco no clique */
+}

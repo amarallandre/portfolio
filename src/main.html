@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="botoes-secao.css">
+    <link rel="stylesheet" href="social-media.css">
+    <link rel="stylesheet" href="contact-me.css">
+</head>
+<body>
+    <main class="container">
+        <div class="header">
+            <div class="Topo_imagem"></div>
+            <div>
+            <h1>Olá! sou o André 👋</h1>
+            <h2>Desenvolvedor 💻</h2>
+          </div>
+
+        <div class="contato">
+            <div class="contato-info">
+            <h1>Contato</h1>
+            <p><strong>Telefone:</strong> (11) 98267-2319</p>
+            <p><strong>Email:</strong> andrenascimentoo96@icloud.com</p>
+            </div>
+        </div>
+        <div class="botoes-secao">
+            <div class="botao-conteudo" id="botao-sobre-mim">
+              <button>Sobre Mim</button>
+              <p class="conteudo" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out;">
+                Olá! Meu nome é André Nascimento, e sou um grande entusiasta de tecnologia em geral.
+                Meu primeiro contato com a programação aconteceu quando eu tinha apenas 10 anos, quando meu irmão e eu decidimos desenvolver um servidor para um jogo já existente.
+                No servidor, minha tarefa era modificar o back-end do jogo, que estava inteiramente escrito na linguagem LUA.
+                Após essa experiência, fiquei alguns anos afastado da programação, mas retomei meus estudos há cerca de 3 anos.
+                Atualmente, estou em busca de oportunidades na área de desenvolvimento back-end.
+               </p>
+            </div>
+            <div class="botao-conteudo" id="botao-projetos">
+              <button>Projetos</button>
+              <div class="conteudo" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out;">
+                <div class="galeria">
+                  <a href="https://github.com/amarallandre/ponto_eletronico" target="_blank">Ponto eletronico</a>
+                  <img class="img-botao" src="imagens/pontoeletronico-inicio.png" alt="Projeto 1" width="35%" onclick="abrirGaleria()">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <div class="social-media">
+                <a href="https://github.com/amarallandre" class="icone1"></a>
+                <a href="https://www.linkedin.com/in/andre-nascimento-281bb225b/" class="icone2"></a>
+        </div>
+        <div class="contact-me">
+            <a href="mailto:andrenascimentoo96@icloud.com">contact-me 📧</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

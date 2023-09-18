@@ -1,0 +1,39 @@
+/* CSS para a classe .header */
+.header {
+  padding: 25px;
+  display: flex; /* Torna o .header um container flexível */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  gap: 24px;
+  flex: 60%; /* 60% do espaço disponível na largura da .container */
+}
+
+.Topo_imagem {
+  width: 175px;
+  height: 171px;
+  top: 49px;
+  left: 695px;
+  background-color: black;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+/* Estilos para os títulos h1 e h2 dentro de .header */
+.header div {
+  display: flex;
+  flex-direction: column; /* Coloca os itens em coluna */
+}
+
+.header h1 {
+  font-size: 36px;
+  line-height: 54px; 
+  color: var(--text-primary);
+  margin: 0; /* Remova margens padrão para evitar espaçamento indesejado */
+}
+
+.header h2 {
+  font-size: 30px;
+  line-height: 45px;
+  font-style: normal;   
+  color: var(--text-secundary);
+  margin: 0; /* Remova margens padrão para evitar espaçamento indesejado */
+}

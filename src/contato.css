@@ -1,0 +1,27 @@
+.contato {
+  background: linear-gradient(90deg, #4d5097 2.62%, #2520a8 93.38%);
+  border-radius: 24px;
+  padding: 12px;
+  width: 50%;
+  gap: 24px;
+  max-width: 400px;
+  margin-left: auto; /* Move a div para a direita *//
+
+}
+
+.contato-info {
+
+  display:flex;
+  gap: 15px;
+  align-items: center;
+  margin: 0; /* Remova margens padrão para evitar espaçamento indesejado */
+  white-space: nowrap;
+
+}
+
+
+.contato-info p {
+  align-self: flex-start;
+  font-size: 20px;
+  color: var(--text-primary);
+}

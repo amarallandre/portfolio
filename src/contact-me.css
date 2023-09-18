@@ -1,0 +1,41 @@
+.contact-me {
+  right: 170px;
+  top: 550px;
+  position: absolute;
+  bottom: 0; /* Coloca os botões na parte inferior */
+}
+
+
+.contact-me a {
+  background: linear-gradient(90deg, #7089b6 2.62%, #2b4678 93.38%);
+  border-radius: 24px;
+  width: 325px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s; /* Adiciona transições suaves para background-color e transform */
+}
+  
+.contact-me a:hover {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Altera a cor de fundo no hover */
+  transform: scale(1.05); /* Faz o botão crescer um pouco no hover */
+}
+  
+.contact-me a:active {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Mantém a cor de fundo no clique */
+  transform: scale(0.95); /* Faz o botão encolher um pouco no clique */
+}
+
+

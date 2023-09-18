@@ -1,0 +1,28 @@
+:root {
+  --text-primary: white;
+  --text-secundary: #000000;
+  --bg-primary: #403f44;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  max-width: 1000vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-primary);
+}
+
+.container {
+  padding: 100px;
+  align-items: center;
+  justify-items: start;
+  justify-content: space-between;
+}
