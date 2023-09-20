@@ -25,3 +25,27 @@
   font-size: 20px;
   color: var(--text-primary);
 }
+
+.curriculo{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 1200px;
+  transition: background-color 0.3s, transform 0.3s; /* Adiciona transições suaves para background-color e transform */
+}
+
+.curriculo img {
+  width: 7%;
+}
+
+.curriculo:hover {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Altera a cor de fundo no hover */
+  transform: scale(1.05); /* Faz o botão crescer um pouco no hover */
+}
+  
+.curriculo:active {
+  background-color: linear-gradient(90deg, #2b4678 2.62%, #7089b6 93.38%); /* Mantém a cor de fundo no clique */
+  transform: scale(0.95); /* Faz o botão encolher um pouco no clique */
+}
+
+
